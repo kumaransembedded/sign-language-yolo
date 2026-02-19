@@ -1,0 +1,13 @@
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/kumaransembedded/sign-language-yolo.git
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+## Run the Project
+
+python main.py
