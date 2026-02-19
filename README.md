@@ -4,7 +4,7 @@ Sign Language Detection using YOLOv8
  It detects American Sign Language (ASL) alphabets from a live webcam feed and builds words dynamically.
  The system is designed as a prototype for deployment on embedded platforms such as Raspberry Pi.
 
-##Features
+Features
  Real-time hand gesture detection
  ASL alphabet recognition
  Confidence score display
@@ -22,15 +22,14 @@ Sign Language Detection using YOLOv8
  Input: Live webcam stream
  Output: Bounding box + predicted alphabet + confidence score
 
-
-## Installation
+Installation
 1. Clone the repository
   git clone https://github.com/kumaransembedded/sign-language-yolo.git
 cd sign-language-yolo
 2. Install dependencies
   pip install -r requirements.txt
 
-## Demo
+Demo
  Future Improvements
   1.Sentence auto-formation improvement
   2.Cloud-based inference version
@@ -38,14 +37,14 @@ cd sign-language-yolo
   4.Full deployment on Raspberry Pi
   5.Larger and more robust dataset
   
-##Project Impact  
+Project Impact  
   This project demonstrates:
   Real-time computer vision implementation
   Custom YOLO model training 
   Embedded deployment planning
   Practical application of AI in assistive technology
    
-##Author
+Author
  Kumaran
  Embedded & Automation Engineer
  GitHub: https://github.com/kumaransembedded
