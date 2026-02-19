@@ -38,7 +38,4 @@ The system is designed as a prototype for deployment on embedded platforms such 
 
 ---
 
-## Installation
-
-### 1. Clone the repository
 
