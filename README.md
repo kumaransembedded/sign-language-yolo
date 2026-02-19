@@ -1,44 +1,26 @@
 Sign Language Detection using YOLOv8
-Overview
+##Overview
+ This project implements a real-time Sign Language Recognition System using YOLOv8 and OpenCV.
+ It detects American Sign Language (ASL) alphabets from a live webcam feed and builds words dynamically.
+ The system is designed as a prototype for deployment on embedded platforms such as Raspberry Pi.
 
-This project implements a real-time Sign Language Recognition System using YOLOv8 and OpenCV.
-It detects American Sign Language (ASL) alphabets from a live webcam feed and builds words dynamically.
-
-The system is designed as a prototype for deployment on embedded platforms such as Raspberry Pi.
-
-Features
-
-Real-time hand gesture detection
-
-ASL alphabet recognition
-
-Confidence score display
-
-Word building logic (prototype)
-
-Edge-device ready architecture
-
-Tech Stack
-
-Python
-
-YOLOv8 (Ultralytics)
-
-OpenCV
-
-NumPy
-
-Raspberry Pi (Future Deployment)
-
-Model Details
-
-Model: YOLOv8 custom-trained model
-
-Dataset: Custom ASL alphabet dataset
-
-Input: Live webcam stream
-
-Output: Bounding box + predicted alphabet + confidence score
+##Features
+ Real-time hand gesture detection
+ ASL alphabet recognition
+ Confidence score display
+ Word building logic (prototype)
+ Edge-device ready architecture
+ Tech Stack
+ Python
+ YOLOv8 (Ultralytics)
+ OpenCV
+ NumPy
+ Raspberry Pi (Future Deployment)
+ Model Details
+ Model: YOLOv8 custom-trained model
+ Dataset: Custom ASL alphabet dataset
+ Input: Live webcam stream
+ Output: Bounding box + predicted alphabet + confidence score
 
 
 ## Installation
@@ -58,12 +40,12 @@ cd sign-language-yolo
   
 ##Project Impact  
   This project demonstrates:
-   Real-time computer vision implementation
-   Custom YOLO model training 
-   Embedded deployment planning
-   Practical application of AI in assistive technology
+  Real-time computer vision implementation
+  Custom YOLO model training 
+  Embedded deployment planning
+  Practical application of AI in assistive technology
    
-Author
-Kumaran
-Embedded & Automation Engineer
-GitHub: https://github.com/kumaransembedded
+##Author
+ Kumaran
+ Embedded & Automation Engineer
+ GitHub: https://github.com/kumaransembedded
