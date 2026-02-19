@@ -18,3 +18,5 @@ Real-time sign language recognition using YOLOv8 and OpenCV.
 - Cloud deployment
 - ESP32 camera integration
 - Improved dataset
+## Demo
+![Demo](demo.png)
