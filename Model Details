@@ -1,0 +1,6 @@
+## Model Details
+
+- Model: YOLOv8 (Ultralytics)
+- Training: Custom ASL alphabet dataset
+- Input: Real-time webcam feed
+- Output: Bounding box + predicted alphabet + confidence score
