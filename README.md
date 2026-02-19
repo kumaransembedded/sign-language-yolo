@@ -1,5 +1,5 @@
 Sign Language Detection using YOLOv8
-##Overview
+Overview
  This project implements a real-time Sign Language Recognition System using YOLOv8 and OpenCV.
  It detects American Sign Language (ASL) alphabets from a live webcam feed and builds words dynamically.
  The system is designed as a prototype for deployment on embedded platforms such as Raspberry Pi.
