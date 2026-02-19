@@ -1,41 +1,37 @@
-import cv2
-import time
-from ultralytics import YOLO
 
-model = YOLO("runs/detect/train3/weights/best.pt")
+(Replace main.py if different.)
 
-cap = cv2.VideoCapture(0)
+---
 
-current_word = ""
-last_letter = ""
-last_time = time.time()
+## Demo
 
-while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
+![Demo](Screenshot%202026-02-19%20145513.png)
 
-    results = model(frame, conf=0.30, device=0)
-    annotated = results[0].plot()
+---
 
-    if results[0].boxes:
-        letter = model.names[int(results[0].boxes.cls[0])]
+## Future Improvements
 
-        # Add letter only if different from last
-        if letter != last_letter and time.time() - last_time > 1:
-            current_word += letter
-            last_letter = letter
-            last_time = time.time()
+- Sentence auto-formation improvement  
+- Cloud-based inference version  
+- ESP32 camera integration  
+- Full deployment on Raspberry Pi  
+- Larger and more robust dataset  
 
-    cv2.putText(annotated, current_word, (20, 60),
-                cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 3)
+---
 
-    cv2.imshow("ASL Word Builder", annotated)
+## Project Impact
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+This project demonstrates:
 
-cap.release()
-cv2.destroyAllWindows()
+- Real-time computer vision implementation  
+- Custom YOLO model training  
+- Embedded deployment planning  
+- Practical AI application in assistive technology  
 
-print("Final Word:", current_word)
+---
+
+## Author
+
+Kumaran  
+Embedded & Automation Engineer  
+GitHub: https://github.com/kumaransembedded
